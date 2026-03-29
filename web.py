@@ -1,5 +1,5 @@
 import streamlit as st
-import functions
+import My_Todo.tests.tests.functions as functions
 
 todos = functions.get_todos()
 

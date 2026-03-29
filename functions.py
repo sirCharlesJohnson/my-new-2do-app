@@ -1,5 +1,7 @@
 FILEPATH = "todos.txt"
 
+def example_function(x):
+    return x + 1
 
 def get_todos(filepath=FILEPATH):
     """ Read a text file and return the list of
